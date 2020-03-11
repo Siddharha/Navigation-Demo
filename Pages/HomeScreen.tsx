@@ -1,5 +1,5 @@
 import { View, Text, TouchableOpacity, TextInput } from 'react-native';
-import { styles } from './App';
+import { styles } from './styles/HomeScreenStyle';
 import React from 'react';
 //import Inputs from './Pages/Login';
 export function HomeScreen({ navigation }) {
@@ -22,3 +22,4 @@ export function HomeScreen({ navigation }) {
     </TouchableOpacity>
   </View>);
 }
+
