@@ -3,7 +3,7 @@ import * as React from 'react';
 import { View, Text, Button, TouchableOpacity, TextInput, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Inputs from './Pages/Login';
+//import Inputs from './Pages/Login';
 
 function HomeScreen({navigation}) {
   const [postUser, setPostUser] = React.useState('');
@@ -36,7 +36,8 @@ function HomeScreen({navigation}) {
                       user: postUser,
                       pass:postTPass
                     });
-                    this.login(this.state.email, this.state.password)}
+                    //this.login(this.state.email, this.state.password)
+                  }
                }>
                <Text style = {styles.submitButtonText}> Submit </Text>
             </TouchableOpacity>
